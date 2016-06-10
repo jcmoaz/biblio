@@ -1,0 +1,201 @@
+body{
+    /*background-color: #333;*/
+    /*background-color: #EEE;*/
+    background-color: #EFEFCA;
+    color: black;
+    font-family: Verdana;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto 0 auto;
+}
+
+table tr:first-child td {
+    font-weight: bold;
+}
+
+table.pequena tr td {
+    font-family: Verdana;
+    font-size: 9px;
+    color: black;
+}
+
+a.enlpeq {
+    font-size: 9px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+/* Cabecera */
+div#cabecera {
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto 0 auto;
+}
+
+div img.logoizq{
+    float: left;
+    width: 100%;
+}
+
+div h1.textoder{
+    float: right;
+    width: 0%;
+}
+
+/* Menu superior */
+div#menu {
+    width: 1000px;
+    clear: both;
+    margin: 0 auto 0 auto;
+}
+
+/* Parte principal con el menu izquierdo de categorias, el central de artículos y el área derecha */
+div#principal {
+    width: 1000px;
+    clear: both;
+    margin:0 auto 0 auto;
+}
+
+div#lateralizq{
+    width: 18%;
+    float: left;
+}
+
+div#central{
+    width: 61%;
+    float: left;
+    margin: 5px 15px 20px 15px;
+}
+
+div#lateralder{
+    width: 18%;
+    float: left;
+}
+
+/* Pie */
+div#pie{
+    display: block;
+    clear: both;
+    width: 1000px;
+    /*height: 100px;*/
+    margin: 0 auto 0 auto;
+    background: #2C4D56;
+    color: white;
+    text-align: center;
+}
+
+/*menu categoria*/
+ul.menu2{
+    /*background: #666;*/
+    background: #2C4D56;
+    border: 1px solid #7C7C7C;
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.menu2 li {
+    width: 100%;
+}
+ul.menu2 li a {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    color: white;
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.menu2 li a:hover  {
+    /*background: #E0E0E0;*/
+    background: #137772;
+}
+ul.menu2 li a:active  {
+    /*background: #E0E0E0;*/
+    background: #8A7F5F;
+}
+
+
+/*menu superior*/
+ul.menu1 {
+    /*background: #555;*/
+    background: #2C4D56;
+    border: 1px solid #7C7C7C;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.menu1 li {
+    float: left;
+    width: 25%;
+}
+ul.menu1 li a {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    color: white;
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul.menu1 li a:hover  {
+    /*background: #E0E0E0;*/
+    background: #137772;
+}
+ul.menu1 li a:active  {
+    /*background: #E0E0E0;*/
+    background: #8A7F5F;
+}
+
+div#pie a:link{
+    color: white;
+}
+
+div#pie a:visited{
+    color: white;
+}
+
+.oculto{
+    display:none;
+}
+
+
+/*menu botones*/
+ul.menubotones{
+    background: #666;
+    border: 1px solid #7C7C7C;
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.menubotones li {
+    width: 50%;
+}
+ul.menubotones li a {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    color: white;
+    display: block;
+    padding: .3em;
+    text-decoration: none;
+    text-align: center;
+}
+ul.menubotones li a:hover  {
+    background: #E0E0E0;
+}
+
+.boton {
+    width: 80px;
+
+}
+
